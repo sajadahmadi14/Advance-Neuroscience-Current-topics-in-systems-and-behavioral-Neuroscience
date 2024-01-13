@@ -1,6 +1,6 @@
 # Advance Neuroscience: Current-topics-in-systems-and-behavioral-Neuroscience
 This repository includes solutions to the assignments for the Advanced Neuroscience course instructed by Prof. Ghazizadeh at Sharif University of Technology's. The course covers a range of topics, with corresponding homework for each topic.
-- [Population Response Structure]
+- Population Response Structure
 - [Neural Coding](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Neural_Coding)
 - [Noise Correlation]
 - [Traveling Waves]
