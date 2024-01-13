@@ -1,0 +1,56 @@
+clear
+clc
+close all
+nTrials = 22;
+
+
+r = [ones(1,nTrials/2),-1*ones(1,nTrials/2)];
+w0 = [0;0];
+u = ones(1,nTrials);
+w_n = 0.02;
+tau = 1.2;
+
+%[w,sigma] = myKalman(W_noise,w0,nTrials,tau,sigma0,C,r);
+sigma = zeros(2,2,nTrials);
+sigma0 = 0.6;
+sigma(:,:,1)=sigma0;
+w0=[0;0];
+w=zeros(2,20);
+w(:, 1) = w0;
+sigma1 = [];
+sigma2 = [];
+for i=1:nTrials-1
+    sigma(:,:,i+1) = sigma(:,:,i)+ w_n;
+    G = sigma(:,:,i+1)*u(:,i)*(u(:,i)'*sigma(:,:,i+1)*u(:,i)+tau^2)^(-1);
+    sigma(:,:,i+1) =sigma(:,:,i+1)-G*u(:,i)'*sigma(:,:,i+1);
+    w(:,i+1) = w(:,i)+G*(r(i)-u(:,i)'*w(:,i));
+
+end
+
+% for i = 1:nTrials
+%     tmp = sigma{i};
+%     sigma1 = [sigma1, tmp(1,1)];
+%     sigma2 = [sigma2, tmp(2,2)];
+% end
+
+figure;
+subplot(2,1,1)
+plot(0:nTrials-1,w(1,:),'k','LineWidth',1.5)
+
+xline(10,':k');
+xlim([0 20])
+ylim([-1.2 1.2])
+title("Unblocking - mean")
+ylabel("$\omega(t)$",'Interpreter','latex')
+legend("$\omega_1(t)$","$\omega_2(t)$",'Interpreter','latex')
+
+subplot(2,1,2)
+plot(0:nTrials-1,squeeze(sigma(1,1,:)))
+
+xline(10,':k');
+xlim([0 20])
+ylim([0 1])
+title("Unblocking - Variance")
+ylabel("$\sigma^2(t)$",'Interpreter','latex')
+legend("${\sigma{^2}}_1$","${\sigma{^2}}_2$",'Interpreter','latex')
+
