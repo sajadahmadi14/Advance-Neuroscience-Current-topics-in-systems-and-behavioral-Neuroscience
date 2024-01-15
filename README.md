@@ -8,4 +8,4 @@ This repository includes solutions to the assignments for the Advanced Neuroscie
 - Assignment6_Reinforcement Learning
 - [Assignment7_Evidence Accumulation](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Evidence%Accumulation)
 - Assignment8_Visual Attention
-- [Assignment9_Visual Model](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Visual%Model)
+- [Assignment9_Visual Model](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Visual_Model)
