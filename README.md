@@ -6,6 +6,6 @@ This repository includes solutions to the assignments for the Advanced Neuroscie
 - Assignment4_Traveling Waves
 - [Assignment5_Motivation and classical conditioning](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Motivation%and%classical%conditioning)
 - Assignment6_Reinforcement Learning
-- [Assignment7_Evidence Accumulation](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Evidence%Accumulation))
+- [Assignment7_Evidence Accumulation](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Evidence%Accumulation)
 - Assignment8_Visual Attention
 - [Assignment9_Visual Model](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Visual%Model)
