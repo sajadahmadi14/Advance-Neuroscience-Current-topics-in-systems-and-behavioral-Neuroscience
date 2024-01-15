@@ -1,7 +1,7 @@
 # Advance Neuroscience: Current-topics-in-systems-and-behavioral-Neuroscience
 This repository includes solutions to the assignments for the Advanced Neuroscience course instructed by Prof. Ghazizadeh at Sharif University of Technology's. The course covers a range of topics, with corresponding homework for each topic.
 - [Assignment1_Population Response](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Population%20Response%20Structure)
-- [Assignment2_Neural Coding](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Neural_Coding)
+- [Assignment2_Neural Coding](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Neural%20Encoding)
 - Assignment3_Noise Correlation
 - Assignment4_Traveling Waves
 - [Assignment5_Motivation and classical conditioning](https://github.com/sajadahmadi14/Advance-Neuroscience-Current-topics-in-systems-and-behavioral-Neuroscience/tree/main/Motivation_and_classical_conditioning)
